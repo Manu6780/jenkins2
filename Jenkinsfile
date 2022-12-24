@@ -1,9 +1,9 @@
 pipeline{
-   agent any{ 
+   agent any
 	stages{
-	    stage('build')
-	   steps{
-            sh 'echo "This is juist a test" '
+		stage('build'){
+	        steps{
+               sh 'echo "This is juist a test" '
 	}
 	}
 	}
